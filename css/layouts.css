@@ -1,0 +1,29 @@
+.container{
+    display:grid;
+    min-height:100vh;
+    padding:5vh 5vw;
+    gap:2rem;
+}
+
+.content{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    gap:1.5rem;
+}
+
+.title{
+    font-family: var(--font-primary);
+    font-size: clamp(2rem,4vw,3rem);
+    color: var(--color-primary);
+}
+
+.story-text{
+    max-width:60ch;
+}
+
+.image-scene{
+    width:60%;
+    border-radius:10px;
+}

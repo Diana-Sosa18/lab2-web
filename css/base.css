@@ -1,0 +1,18 @@
+body{
+    margin:0;
+    font-family: var(--font-secondary);
+    color: var(--color-text);
+    text-align:center;
+}
+
+.page-start{
+    background: var(--color-bg-start);
+}
+
+.page-decision{
+    background: var(--color-bg-decision);
+}
+
+.page-ending{
+    background: var(--color-bg-ending);
+}
