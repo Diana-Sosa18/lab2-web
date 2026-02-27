@@ -1,24 +1,48 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <title>caja</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Inter&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="../css/story-theme.css">
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/layouts.css">
+    <link rel="stylesheet" href="../css/components.css">
+    <link rel="stylesheet" href="../css/animations.css">
+
 </head>
-<body>
 
-<h1>Abres la caja</h1>
-<p>Dentro de la caja encuentras un <b>papel</b> con un mensaje misterioso que te guia hacia el pasillo.</p>
-<img src="../imagenes/papel.webp" width= "25%"alt="papel misterioso">
+<body class="page-decision">
 
-<p><b>¿Cual escoges?</b></p>
-<br>
-<a href="index.html">Quedarse en la habitación</a>
-<br>
-<img src="../imagenes/habitacion_oscura.jpg" width= "25%"alt="habitacion misteriosa">
-<br>
-<a href="pasillo.html">Caminar por el pasillo</a>
-<br>
-<img src="../imagenes/pasillo.webp" width= "25%"alt="pasillo misterioso">
+<div class="container">
+<div class="content fade-in">
 
+<h1 class="title flicker">Abres la caja</h1>
+
+<p class="story-text">
+Dentro de la caja encuentras un <b>papel</b> con un mensaje misterioso que te guía hacia el pasillo.
+</p>
+
+<img src="../imagenes/papel.webp" class="image-scene">
+
+<p><b>¿Cuál escoges?</b></p>
+
+<a href="index.html">
+<button class="choice-btn">Quedarse en la habitación</button>
+</a>
+
+<img src="../imagenes/habitacion_oscura.jpg" class="image-scene">
+
+<a href="pasillo.html">
+<button class="choice-btn pulse">Caminar por el pasillo</button>
+</a>
+
+<img src="../imagenes/pasillo.webp" class="image-scene">
+
+</div>
+</div>
 
 </body>
 </html>

@@ -1,27 +1,50 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <title>Mansion embrujada</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Inter&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="../css/story-theme.css">
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/layouts.css">
+    <link rel="stylesheet" href="../css/components.css">
+    <link rel="stylesheet" href="../css/animations.css">
+
 </head>
 
-<body>
+<body class="page-start">
 
-<h1><strong>Comienza con el misterio</strong></h1>
+<div class="container">
+<div class="content fade-in">
 
-<p>Entras a una <b>habitación oscura</b>. No recuerdas cómo llegaste aquí.</p>
+<h1 class="title flicker"><strong>Comienza con el misterio</strong></h1>
 
-<img src="../imagenes/habitacion_oscura.jpg" alt="Habitación oscura">
+<p class="story-text">
+Entras a una <b>habitación oscura</b>. No recuerdas cómo llegaste aquí.
+</p>
 
-<p>Frente a ti hay una <b>caja</b> y una <b>llave</b></p>
+<img src="../imagenes/habitacion_oscura.jpg" class="image-scene">
 
+<p>
+Frente a ti hay una <b>caja</b> y una <b>llave</b>
+</p>
 
-<a href="caja.html">Abrir la caja</a>
-<br>
-<img src="../imagenes/caja.jpg" width= "10%" alt="caja oscura">
-<br>
-<a href="llave.html">tomar la llave</a>
-<br>
-<img src="../imagenes/llave.jpg" width= "10%" alt="llave oscura">
+<a href="caja.html">
+<button class="choice-btn pulse">Abrir la caja</button>
+</a>
+
+<img src="../imagenes/caja.jpg" class="image-scene">
+
+<a href="llave.html">
+<button class="choice-btn">Tomar la llave</button>
+</a>
+
+<img src="../imagenes/llave.jpg" class="image-scene">
+
+</div>
+</div>
 
 </body>
 </html>
